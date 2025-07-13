@@ -1,3 +1,13 @@
+## Setup
+
+1. Install dependencies:
+    pip install -r requirements.txt
+2. cp .env.template .env
+3. Add your API keys to the .env file.
+4. Run the app:
+   python langgraph_app.py
+
+
 # Automated Content Publishing System Architecture
 
 ## Core Components
