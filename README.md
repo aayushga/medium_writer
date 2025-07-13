@@ -145,6 +145,7 @@ Instead of just Medium, publish to:
 
 ### Phase 1 (Weeks 1-2): Foundation
 - Set up LangGraph framework
+- Run `python medium_writer/langgraph_app.py` to verify the graph
 - Integrate primary LLM provider
 - Build basic content generation pipeline
 
