@@ -73,7 +73,7 @@ class ContentGenerationConfig:
     min_word_count: int = 800
     max_word_count: int = 2000
     target_readability: float = 60.0
-    llm_model: str = "claude-3-5-sonnet-20241022"
+    llm_model: str = "gpt-4o"
     temperature: float = 0.7
 
 class ContentGenerator:
@@ -493,7 +493,7 @@ def main():
         max_retries=2,
         min_word_count=800,
         max_word_count=1500,
-        llm_model="claude-3-5-sonnet-20241022",  # or "gpt-4" for OpenAI
+        llm_model="gpt-4o",  # or "gpt-4" for OpenAI
         temperature=0.7
     )
 
