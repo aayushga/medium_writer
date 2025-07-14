@@ -135,7 +135,8 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
+.env       # Ignores only the real secret file
+!.env.template  # EXCEPTION: allow .env.template to be committed
 .envrc
 .venv
 env/
